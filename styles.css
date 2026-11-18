@@ -104,7 +104,7 @@ h1 span:not(.hero-period){letter-spacing:-.105em}
 .research-intro{font-size:clamp(17px,1.8vw,23px);max-width:680px;color:var(--muted);margin-bottom:35px}
 .research-list{border-top:1px solid var(--line)}
 .research-list a{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding:20px 0;font:600 clamp(17px,2vw,25px)/1.25 'Space Grotesk',sans-serif;letter-spacing:-.025em;transition:padding .2s,background .2s}
-.research-list a:hover{padding-inline:12px;background:var(--card)}
+.research-list a:hover{padding-inline:12px;background:var(--card);text-decoration:underline;text-underline-offset:4px}
 .research-list span{font-size:12px;color:var(--muted);letter-spacing:0;padding-top:5px;flex:none}
 .contact-section{background:var(--yellow);color:#161616;padding-bottom:125px}
 .contact-section .section-meta{color:#474023}
